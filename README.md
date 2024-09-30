@@ -8,12 +8,20 @@ private long especialidadId;
 @Column(name = "usuario_id")
 private long usuarioId;
 
-Violaciones a las prácticas de Clean Code
+Violaciones a las prácticas de Clean Code:
 Lo que no es una buena práctica de Clean Code. Repetir las mismas cadenas en diferentes partes del código puede generar errores y dificultades en el mantenimiento.
-	Refactorización: Definir constantes para evitar la duplicación de literales.
+Refactorización: 
+Definir constantes para evitar la duplicación de literales.
 private static final String ALUMNO_NO_ENCONTRADO = "El alumno con ese ID no existe: ";
 public Alumno listarAlumnoPorId(Long id) {
    return alumnoRepository.findById(id)
 .orElseThrow(() -> new ResourceNotFoundException(ALUMNO_NO_ENCONTRADO + id));}
+
+Violaciones Code Smell
+la falta de asociación adecuada entre una etiqueta <label> y su respectivo campo de entrada es un code smell
+Refactorización:
+Si tienes un campo de entrada para "Ciclo", vincula la etiqueta <label> con este campo utilizando el atributo htmlFor
+<label className="form-label" htmlFor="ciclo">Ciclo</label>
+
 
 
