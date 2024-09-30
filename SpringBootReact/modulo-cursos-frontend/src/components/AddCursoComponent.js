@@ -90,7 +90,9 @@ export const AddCursoComponent = () => {
                         <div className="card-body">
                             <form>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Código de Asignatura</label>
+                                    <label className="form-label" htmlFor="codigoAsignatura">Código de
+                                        Asignatura</label>
+
                                     <input
                                         type="text"
                                         placeholder="Digite el código de la asignatura"
@@ -101,7 +103,8 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Nombre de Asignatura</label>
+                                    <label className="form-label" htmlFor="nombreAsignatura">Nombre de
+                                        Asignatura</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el nombre de la asignatura"
@@ -112,7 +115,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Tipo de Asignatura</label>
+                                    <label className="form-label" htmlFor="tipoAsignatura">Tipo de Asignatura</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el tipo de asignatura"
@@ -123,7 +126,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Área de Estudios</label>
+                                    <label className="form-label" htmlFor="areaEstudios">Área de Estudios</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el área de estudios"
@@ -134,7 +137,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Número de Semanas</label>
+                                    <label className="form-label" htmlFor="numeroSemanas">Número de Semanas</label>
                                     <input
                                         type="number"
                                         placeholder="Digite el número de semanas"
@@ -145,7 +148,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Horas Semanales</label>
+                                    <label className="form-label" htmlFor="horasSemanales">Horas Semanales</label>
                                     <input
                                         type="number"
                                         placeholder="Digite las horas semanales"
@@ -156,7 +159,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Semestre Académico</label>
+                                    <label className="form-label" htmlFor="semestreAcademico">Semestre Académico</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el semestre académico"
@@ -167,7 +170,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Ciclo</label>
+                                    <label className="form-label" htmlFor="ciclo">Ciclo</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el ciclo"
@@ -178,7 +181,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Créditos</label>
+                                    <label className="form-label" htmlFor="creditos">Créditos</label>
                                     <input
                                         type="number"
                                         placeholder="Digite los créditos"
@@ -189,7 +192,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Modalidad</label>
+                                    <label className="form-label" htmlFor="modalidad">Modalidad</label>
                                     <input
                                         type="text"
                                         placeholder="Digite la modalidad"
@@ -200,7 +203,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Prerrequisitos</label>
+                                    <label className="form-label" htmlFor="prerrequisitos">Prerrequisitos</label>
                                     <input
                                         type="text"
                                         placeholder="Digite los prerrequisitos"
@@ -211,7 +214,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Sumilla</label>
+                                    <label className="form-label" htmlFor="sumilla">Sumilla</label>
                                     <input
                                         type="text"
                                         placeholder="Digite la sumilla"
@@ -222,7 +225,8 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Evaluación de Aprendizaje</label>
+                                    <label className="form-label" htmlFor="evaluacionAprendizaje">Evaluación de
+                                        Aprendizaje</label>
                                     <input
                                         type="text"
                                         placeholder="Digite la evaluación de aprendizaje"
@@ -233,7 +237,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Día</label>
+                                    <label className="form-label" htmlFor="dia">Día</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el día"
@@ -244,7 +248,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Hora de Inicio</label>
+                                    <label className="form-label" htmlFor="horaInicio">Hora de Inicio</label>
                                     <input
                                         type="time"
                                         placeholder="Digite la hora de inicio"
@@ -255,7 +259,7 @@ export const AddCursoComponent = () => {
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Hora de Fin</label>
+                                    <label className="form-label" htmlFor="horaFin">Hora de Fin</label>
                                     <input
                                         type="time"
                                         placeholder="Digite la hora de fin"

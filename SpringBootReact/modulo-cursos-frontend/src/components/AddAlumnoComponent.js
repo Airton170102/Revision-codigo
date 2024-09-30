@@ -57,58 +57,58 @@ const AddAlumnoComponent = () => {
                         <div className="card-body">
                             <form>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Código</label>
+                                    <label className="form-label" htmlFor="codigo">Código</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el código del alumno"
                                         name="codigo"
                                         className="form-control"
                                         value={codigo}
-                                        onChange={(e) => setCodigo(e.target.value)}                                
+                                        onChange={(e) => setCodigo(e.target.value)}
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Nombres</label>
+                                    <label className="form-label" htmlFor="nombres">Nombres</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el nombre del alumno"
                                         name="nombres"
                                         className="form-control"
                                         value={nombres}
-                                        onChange={(e) => setNombres(e.target.value)}                                
+                                        onChange={(e) => setNombres(e.target.value)}
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Apellidos</label>
+                                    <label className="form-label" htmlFor="apellidos">Apellidos</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el apellido del alumno"
                                         name="apellidos"
                                         className="form-control"
                                         value={apellidos}
-                                        onChange={(e) => setApellidos(e.target.value)}                                
+                                        onChange={(e) => setApellidos(e.target.value)}
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">Email</label>
+                                    <label className="form-label" htmlFor="email">Email</label>
                                     <input
                                         type="email"
                                         placeholder="Digite el email del alumno"
                                         name="email"
                                         className="form-control"
                                         value={email}
-                                        onChange={(e) => setEmail(e.target.value)}                                
+                                        onChange={(e) => setEmail(e.target.value)}
                                     />
                                 </div>
                                 <div className="form-group mb-2">
-                                    <label className="form-label">ID de especialidad</label>
+                                    <label className="form-label" htmlFor="especialidadId">ID de especialidad</label>
                                     <input
                                         type="text"
                                         placeholder="Digite el ID de la especialidad"
                                         name="especialidad_id"
                                         className="form-control"
                                         value={especialidad_id}
-                                        onChange={(e) => setEspecialidad_id(e.target.value)}                                
+                                        onChange={(e) => setEspecialidad_id(e.target.value)}
                                     />
                                 </div>
                                 <button className="btn btn-success" onClick={(e) => saveOrUpdateAlumno(e)}>Guardar</button>
